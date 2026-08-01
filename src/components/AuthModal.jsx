@@ -9,6 +9,7 @@ function AuthModal({ isOpen, onClose, onSubmit, password, setPassword, error }) 
         <h3 className="text-lg font-bold text-gray-800 mb-1">🔒 Security Gateway</h3>
         <p className="text-xs text-gray-400 mb-4 font-medium">Please enter your workspace authorization key.</p>
         
+        
         <form onSubmit={onSubmit} className="space-y-4">
           <div>
             <input 
